@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  background: #FFF;
+  color: #33343F;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+body {
+  height: 100%;
+}
+
+.drag-over {
+  @apply border-blue-500;
+}
+
+.drag-over:hover {
+  @apply border-blue-500;
+}
+
+.thumb {
+  background-size: cover;
+  background-position: center;
+}

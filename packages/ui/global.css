@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  @apply h-full bg-white;
+}
+
+body {
+  @apply bg-gray-100 h-full font-sans;
+  /* font-family: Raleway, sans-serif; */
+  background-color: white;
+  color: #33343F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+}
+
+.tooltip {
+  @apply relative;
+}
+
+.tooltip-hover {
+  @apply invisible absolute text-xs top-0 left-0 w-52 rounded border shadow-lg px-2 py-1 bg-white text-brandblack -mt-6;
+}
+
+.tooltip:hover .tooltip-hover {
+  @apply visible z-50;
+}

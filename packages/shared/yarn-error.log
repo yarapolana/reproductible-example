@@ -1,0 +1,37 @@
+Arguments: 
+  /Users/yarapolana/.nvm/versions/node/v18.16.0/bin/node /Users/yarapolana/.yarn/bin/yarn.js add @supabase/supabase-js @supabase/auth-ui-react @supabase/auth-ui-shared
+
+PATH: 
+  /Users/yarapolana/.deno/bin:/Users/yarapolana/.nvm/versions/node/v18.16.0/bin:/Users/yarapolana/.yarn/bin:/Users/yarapolana/.config/yarn/global/node_modules/.bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/yarapolana/Library/Android/Sdk/emulator:/Users/yarapolana/Library/Android/Sdk/tools:/Users/yarapolana/Library/Android/Sdk/tools/bin:/Users/yarapolana/Library/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/yarapolana/Library/Mobile Documents/com~apple~CloudDocs/WORK/_KEEPS/Source File/keeps/packages/shared/package.json: Unexpected token } in JSON at position 121
+      at JSON.parse (<anonymous>)
+      at /Users/yarapolana/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/yarapolana/.yarn/lib/cli.js:310:30)
+      at /Users/yarapolana/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@reproductible/tailwind-config",
+    "version": "0.0.0",
+    "main": "index.js",
+    "private": true,
+    "license": "MIT",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
